@@ -21,8 +21,6 @@ services:
     mongo:
         container_name: mongo
         image: mongo
-        volumes:
-            - ./seed-data:/seed-data
         ports:
             - "27017:27017"
     
