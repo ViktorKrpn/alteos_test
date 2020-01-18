@@ -1,0 +1,31 @@
+version: '3'
+services:
+    client:
+        container_name: react
+        build: ./client
+        restart: always
+        ports:
+            - "3000:3000"
+        command: npm run start
+        links:
+            - app
+    app:
+        container_name: app
+        restart: always
+        build: ./server
+        ports:
+            - "5000:5000"
+        command: npm run dev
+        links:
+            - mongo
+    mongo:
+        container_name: mongo
+        image: mongo
+        volumes:
+            - ./seed-data:/seed-data
+        ports:
+            - "27017:27017"
+    
+            
+
+
