@@ -1,8 +1,8 @@
 # Alteos test project
 
-This is a test project for a position of junior developer;
+This is a test project for a position of junior developer
 
-## Prerequisites
+### Prerequisites
 
 Before starting the app, please make sure that you have installed docker and docker-compose on your maschine 
 
@@ -20,7 +20,7 @@ then navigete to:
 http://localhost:3000/
 ```
 
-## Using the app
+### Using the app
 
 On top of the screen there is a search bar that automatically updates the results as the user types.
 
