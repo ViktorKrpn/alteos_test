@@ -4,18 +4,17 @@ This is a test project for a position of junior developer;
 
 ## Prerequisites
 
-Before starting the app please make sure that you have installed docker and docker-compose on your maschine 
-
+Before starting the app, please make sure that you have installed docker and docker-compose on your maschine 
 
 ### Installing
 
-After downloading the app run the following command from the root directory 
+After downloading the app, run the following command from the root directory 
 
 ```
 docker-compose up
 ```
 
-then navigete to 
+then navigete to:
 
 ```
 http://localhost:3000/
