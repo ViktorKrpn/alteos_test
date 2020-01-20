@@ -4,7 +4,7 @@ This is a test project for a position of junior developer.
 
 ### Prerequisites
 
-Before starting the app, please make sure that you have installed node, docker, docker-compose on your maschine. 
+Before starting the app, please make sure that you have installed node.js, docker, docker-compose on your maschine. 
 
 ### Installing
 
